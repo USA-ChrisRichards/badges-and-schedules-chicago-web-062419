@@ -10,4 +10,5 @@ def batch_badge_creator(array_of_names)
     message = "Hello, my name is #{name}."
     badge_messages << message
     badge_messages
+  end
 end
