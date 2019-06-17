@@ -24,5 +24,8 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  print assign_rooms(attendees)
+  rooms_list = assign_rooms(attendees)
+  rooms_list.collect do |element|
+    
+  end
 end
