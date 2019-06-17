@@ -25,7 +25,7 @@ end
 
 def printer(attendees)
   rooms_list = assign_rooms(attendees)
-  rooms_list.collect do |element|
+  rooms_list.each do |element|
     
   end
 end
