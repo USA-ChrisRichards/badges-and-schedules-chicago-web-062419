@@ -24,7 +24,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  pring attendees
+  print attendees
   batch_badge_creator(attendees).collect { |i| 
   x = batch_badge_creator[i]
   puts x
