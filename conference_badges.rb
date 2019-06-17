@@ -9,6 +9,6 @@ def batch_badge_creator(array_of_names)
   array_of_names.each do |name|
     message = "Hello, my name is #{name}."
     badge_messages << message
-    badge_messages
+   print badge_messages
   end
 end
