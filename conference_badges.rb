@@ -13,6 +13,9 @@ def batch_badge_creator(array_of_names)
   badge_messages
 end
 
-def assign_rooms
+def assign_rooms(speakers)
   
+  speakers.collect do |name|
+    
+  "Hello, #{name}! You'll be assigned to room #{room}!"
 end
