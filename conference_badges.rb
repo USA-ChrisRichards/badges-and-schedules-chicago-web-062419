@@ -28,8 +28,8 @@ def printer(attendees)
   rooms_list.each do |element|
     puts element
   end
-  rooms_list = assign_rooms(attendees)
-  rooms_list.each do |element|
+  badges = batch_badge_creator(attendees)
+  badges.each do |element|
     puts element
   end
 end
