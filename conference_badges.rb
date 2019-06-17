@@ -26,6 +26,6 @@ end
 def printer(attendees)
   rooms_list = assign_rooms(attendees)
   rooms_list.each do |element|
-    
+    puts element
   end
 end
