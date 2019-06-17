@@ -25,11 +25,10 @@ end
 
 def printer(attendees)
   print attendees
-  batch_badge_creator(attendees).collect { |i| 
-  x = batch_badge_creator[i]
-  puts x
+  batch_badge_creator(attendees)
+  puts badge_messages
     
   }
   
-  assign_rooms(array_of_names)
+  assign_rooms(attendees)
 end
